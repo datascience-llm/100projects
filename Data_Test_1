@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+path = r"//content/sample_data/california_housing_test.csv"
+
+ab = pd.read_csv(path)
+plt.hist(ab['population'])
+plt.show()
